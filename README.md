@@ -1,6 +1,6 @@
 # RSA Encryption and Decryption Algorithm
 
-Implementação simples do algoritmo de criptografia RSA (Rivest-Shamir-Adleman) em Python, sem depender de bibliotecas externas.
+Implementação simples do algoritmo de criptografia RSA (Rivest-Shamir-Adleman) em JAVA, sem depender de bibliotecas externas.
 
 ## Descrição
 
@@ -17,9 +17,14 @@ Este repositório contém uma implementação simples do algoritmo RSA, incluind
 ## Uso
 
 1. Clone o repositório:
-2. Execute o servidor:
-3. Execute o cliente:
+2. Entre na pasta SERVER:
+3.   Lembre se compilar o ALgoritmoRSA antes de executar o server pode ser o comando: " cd criptografia" e "javac AlgoritmoRSA.java"
+4.   Compile e execute o Server "javac TCPServer.java" e "java TCPServer"
+5. Entre na pasta CLIENT:
+6.   Lembre se compilar o ALgoritmoRSA antes de executar o client pode ser o comando: " cd criptografia" e "javac AlgoritmoRSA.java"
+7.   Compile e execute o Client "javac TCPServer.java" e "java TCPServer"
 
+obs: Nao deixe o TCPCliente e o TCPServer na mesma pasta.
 
 
 
