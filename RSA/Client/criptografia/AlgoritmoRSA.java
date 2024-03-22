@@ -69,7 +69,7 @@ public class AlgoritmoRSA {
             q = getLowLevelPrime(bits, rand);
             n = p.multiply(q);
             phi = p.subtract(BigInteger.ONE).multiply(q.subtract(BigInteger.ONE));
-            e = BigInteger.valueOf(65537); // Common public exponent
+            e = BigInteger.valueOf(65537); 
             d = e.modInverse(phi);
         } while (!e.gcd(phi).equals(BigInteger.ONE));
         RSAKey publicKey = new RSAKey(e, n);
